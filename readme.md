@@ -2,6 +2,11 @@
 The GenAI Stack will get you started building your own GenAI application in no time.
 The demo applications can serve as inspiration or as a starting point.
 Learn more about the details in the [introduction blog post](https://neo4j.com/blog/introducing-genai-stack-developers/).
+ CPU version
+docker-compose --profile linux up -d
+
+# GPU version (requires NVIDIA Docker runtime)
+docker-compose --profile linux-gpu up -d
 
 # Configure
 
